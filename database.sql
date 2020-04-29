@@ -2,8 +2,8 @@ CREATE TABLE `Teacher_table` (
   `admin_id` int(11) NOT NULL,
   `admin_email_address` varchar(150) NOT NULL,
   `admin_password` varchar(150) NOT NULL,
-  `admin_created_on` datetime NOT NULL,
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+  `admin_created_on` datetime NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 
 
@@ -17,7 +17,7 @@ CREATE TABLE `online_exam_table` (
   `total_question` int(5) NOT NULL,
   `Points_per_right_answer` varchar(30) NOT NULL,
   `Points_per_wrong_answer` varchar(30) NOT NULL,
-  `online_exam_created_on` datetime NOT NULL,
+  `online_exam_created_on` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 

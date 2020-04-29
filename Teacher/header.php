@@ -33,6 +33,14 @@ $exam->admin_session_private();
 	<div class="jumbotron text-center" style="margin-bottom:0; padding: 1rem 1rem; background-color:#ffff;">
   		<img src="Quizmaker.png" class="img-fluid" width="300" alt="Quiz Maker" />
 	</div>
+<?php
+    if(isset($_SESSION['user_is']))
+    {
+
+    }
+    ?>
+
+
 
     <nav class="navbar navbar-inverse bg-dark navbar-dark">
         <a class="navbar-brand" href="index.php">Home</a>
